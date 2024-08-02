@@ -41,7 +41,7 @@ function About() {
                             <h4 style={{ borderBottom: "2px solid grey" }}>Brief Profile</h4>
                             <img src={about} alt="Profile" />
                             <p style={{ textAlign: "justify" }}>
-                                <b style={{ fontWeight: "900" }}> ManviEnterprise</b> is a leading provider of comprehensive electrical maintenance and facility management services. We specialize in maintaining data centers, electrical equipment, and infrastructure for large and medium enterprises. Our expertise extends to various areas, including:
+                                <b style={{ fontWeight: "900" }}> Manvi Enterprises</b> is a leading provider of comprehensive electrical maintenance and facility management services. We specialize in maintaining data centers, electrical equipment, and infrastructure for large and medium enterprises. Our expertise extends to various areas, including:
 
                                 Electrical Maintenance and Facility Management: Ensuring optimal performance and longevity of electrical systems.
                                 Data Center Maintenance: Providing end-to-end maintenance for data centers.
