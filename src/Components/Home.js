@@ -64,7 +64,7 @@ const Home = () => {
           <div className="col-lg-6 col-md-6 col-sm-12">
             <p className="text-justify">
               <strong>
-                <b className="font-weight-bold "> Who We Are? <br /> <b style={{color:"blue"}}>Manvi Enterprisees</b> </b>
+                <b className="font-weight-bold "> Who We Are? <br /> <b style={{color:"blue"}}>Manvi Enterprises</b> </b>
               </strong> is a leading provider of comprehensive electrical maintenance and facility management services. We specialize in maintaining data centers, electrical equipment, and infrastructure for large and medium enterprises. Our expertise extends to various areas, including:
               <ul>
                 <li>Electrical Maintenance and Facility Management: Ensuring optimal performance and longevity of electrical systems.</li>
