@@ -1,19 +1,16 @@
-
 import React from 'react';
-
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
 import './All.css';
 import Nav from './Nav';
 import Footer from './Footer';
-import data from '../Components/data.png'
-import electric from '../Components/electric.jpg'
-import install from '../Components/installe.jpg'
-import ups from '../Components/ups.jpg'
-import security from '../Components/security.png'
-import infra from '../Components/infra.png'
-import light from '../Components/LIGHT.jpg'
+import data from '../Components/data.png';
+import electric from '../Components/electric.jpg';
+import install from '../Components/installe.jpg';
+import ups from '../Components/ups.jpg';
+import security from '../Components/security.png';
+import infra from '../Components/infra.png';
+import light from '../Components/LIGHT.jpg';
 
 
 const card = [
@@ -59,22 +56,19 @@ const Services = () => {
             <Nav />
             <div className="container top">
                 <div className="row">
-                    {
-                        card.map((item, index) => (
-                            <div className="col-sm-12 col-lg-4 col-md-6 shadow p-3 mb-5 bg-body-tertiary rounded" key={index}>
-                                <Card style={{ marginBottom: "2rem", minHeight: "400px" }}>
-                                    <Card.Img style={{ minHeight: "220px",maxHeight: "220px", objectFit: "cover" }} src={item.img} />
-                                    <Card.Body>
-                                        <Card.Title>{item.title}</Card.Title>
-                                        <Card.Text>{item.content}</Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </div>
-                        ))
-                    }
+                    {card.map((item, index) => (
+                        <div className="col-sm-12 col-lg-4 col-md-6 mb-4 shadow-lg mb-5 bg-body-tertiary rounded Services_card" key={index}>
+                            <Card className="shadow-sm" style={{ minHeight: "400px", border: "none", borderRadius: "10px", backgroundColor: "#f7f7f7" }}>
+                                <Card.Img style={{ minHeight: "220px", maxHeight: "220px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} src={item.img} />
+                                <Card.Body style={{ fontFamily: 'Roboto, sans-serif' }}>
+                                    <Card.Title style={{ color: "#002b5c", fontWeight: "bold" }}>{item.title}</Card.Title>
+                                    <Card.Text style={{ color: "#333" }}>{item.content}</Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    ))}
                 </div>
             </div>
-
             <Footer />
         </>
     );

@@ -166,6 +166,17 @@ body {
 a{
     text-decoration: none !important;
 }
+
+
+.Services_card{
+    overflow: hidden;
+  
+
+}
+.Services_card:hover{
+    transition: 2s ease-out;
+    transform: scale(1.01);
+}
 /* ************************************contact******************** */
 
 /* Slider.css */
@@ -371,10 +382,10 @@ footer p:hover {
         width: 100%;
         height: 100vh;
     }
-    .social-icons{
-        padding-left: 5rem;
+    /* .social-icons{
+        padding-left: 1rem;
 
-    }
+    } */
     .top {
         margin-top: 50%;
     }
@@ -401,10 +412,10 @@ footer p:hover {
     .navbar {
         margin-bottom: 30px !important;
     }
-    .social-icons{
-        padding-left: 8rem;
+    /* .social-icons{
+        padding-left:1rem;
 
-    }
+    } */
 }
 
 /* Medium devices (tablets, 768px to 992px) */
